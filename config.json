@@ -11,12 +11,13 @@
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
-          "Magento-Website-Code": "base"
+          "Magento-Website-Code": "base",
+          "Magento-Environment-Id": "staging-5em2ouy"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
-        "environment": "Testing",
+        "environment": "staging",
         "environment-id": "",
         "store-code": "main_website_store",
         "store-id": 1,
