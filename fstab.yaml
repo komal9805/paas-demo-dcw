@@ -1,0 +1,7 @@
+mountpoints:
+  /:
+    url: https://content.da.live/komal9805/paas-demo-dcw/
+    type: markup
+
+folders:
+  /products/: /products/default
