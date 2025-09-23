@@ -12,7 +12,8 @@
           "Magento-Store-Code": "main_website_store",
           "Magento-Store-View-Code": "default",
           "Magento-Website-Code": "base",
-          "Magento-Environment-Id": "production-vohbr3y"
+          "x-api-key": "ebb849d72ebd434eb727bbec73c2ff8c",
+          "Magento-Environment-Id": "769a3e83-826b-4ea4-bf60-d848f8935048"
         }
       },
       "analytics": {
