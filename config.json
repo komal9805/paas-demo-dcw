@@ -2,7 +2,7 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://production-vohbr3y-yjafjeohe76ya.us-4.magentosite.cloud/graphql",
-      "commerce-endpoint": "https://catalog-service-sandbox.adobe.io/graphql",
+      "commerce-endpoint": "https://catalog-service.adobe.io/graphql",
       "headers": {
         "all": {
           "Store": "default"
