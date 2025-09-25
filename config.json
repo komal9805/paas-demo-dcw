@@ -2,7 +2,7 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://production-vohbr3y-yjafjeohe76ya.us-4.magentosite.cloud/graphql",
-      "commerce-endpoint": "https://production-vohbr3y-yjafjeohe76ya.us-4.magentosite.cloud/graphql",
+      "commerce-endpoint": "https://catalog-service-sandbox.adobe.io/graphql",
       "headers": {
         "all": {
           "Store": "default"
@@ -18,8 +18,7 @@
       },
       "analytics": {
         "base-currency-code": "USD",
-        "environment": "production",
-        "environment-id": "",
+        "environment": "Production",
         "store-code": "main_website_store",
         "store-id": 1,
         "store-name": "Main Website Store",
