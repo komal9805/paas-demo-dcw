@@ -4,7 +4,6 @@ import { render as authRenderer } from '@dropins/storefront-auth/render.js';
 import { SignIn } from '@dropins/storefront-auth/containers/SignIn.js';
 import { events } from '@dropins/tools/event-bus.js';
 import {
-  CUSTOMER_FORGOTPASSWORD_PATH,
   CUSTOMER_REGISTRATION_PATH,
   rootLink,
 } from '../../scripts/commerce.js';
