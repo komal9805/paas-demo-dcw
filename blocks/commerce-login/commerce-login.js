@@ -3,6 +3,7 @@ import { render as authRenderer } from '@dropins/storefront-auth/render.js';
 import {
   CUSTOMER_ACCOUNT_PATH,
   CUSTOMER_FORGOTPASSWORD_PATH,
+  CUSTOMER_REGISTRATION_PATH,
   checkIsAuthenticated,
   rootLink,
 } from '../../scripts/commerce.js';
@@ -15,8 +16,10 @@ export default async function decorate(block) {
     window.location.href = rootLink(CUSTOMER_ACCOUNT_PATH);
   } else {
     await authRenderer.render(SignIn, {
+      renderSignUpLink: true,
       routeForgotPassword: () => rootLink(CUSTOMER_FORGOTPASSWORD_PATH),
       routeRedirectOnSignIn: () => rootLink(CUSTOMER_ACCOUNT_PATH),
+      routeSignUp: () => rootLink(CUSTOMER_REGISTRATION_PATH),
     })(block);
   }
 }
