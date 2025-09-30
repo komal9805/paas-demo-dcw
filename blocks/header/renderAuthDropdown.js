@@ -22,7 +22,7 @@ function checkAndRedirect(redirections) {
 function renderSignIn(element) {
   authRenderer.render(SignIn, {
     onSuccessCallback: () => {},
-    formSize: 'default',
+    formSize: 'small',
     renderSignUpLink: true,
     routeForgotPassword: () => rootLink(CUSTOMER_FORGOTPASSWORD_PATH),
     routeSignUp: () => rootLink(CUSTOMER_REGISTRATION_PATH),
