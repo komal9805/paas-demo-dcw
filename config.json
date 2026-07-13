@@ -35,6 +35,24 @@
            "rootCategory": "2"
          }
       }
+    },
+    "/es-es/": {
+      "headers": {
+        "all": {
+          "Store": "es_es"
+        },
+        "cs": {
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Website-Code": "base",
+          "Magento-Store-View-Code": "es_es"
+        }
+      },
+      "analytics": {
+        "base-currency-code": "EUR",
+        "store-view-code": "es_es",
+        "store-view-id": 3,
+        "store-view-name": "Spanish"
+      }
     }
   }
 }
