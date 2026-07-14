@@ -34,7 +34,8 @@
         "picker": {
            "rootCategory": "2"
          }
-      }
+      },
+      "commerce-assets-enabled": false
     },
     "/es-es/": {
       "headers": {
